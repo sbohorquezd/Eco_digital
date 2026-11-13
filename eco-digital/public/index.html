@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<title>ECO DIGITAL – Gestión documental</title>
+</head>
+<body>
+<div class="app">
+  <aside class="side">
+    <div class="logo">ECO <span>DIGITAL</span></div>
+    <nav>
+      <a href="#dashboard" data-r="dashboard">Dashboard</a>
+      <a href="#historial" data-r="historial">Historial</a>
+      <a href="#documentos" data-r="documentos">Gestión de documentos</a>
+    </nav>
+    <div class="userbox"><b id="quien"></b><br><span id="rol"></span><br><button id="salir">Cerrar sesión</button></div>
+  </aside>
+  <main id="main"></main>
+</div>
+<div class="modal" id="modal" hidden><div class="box" id="box"></div></div>
+<script src="app.js"></script>
+</body>
+</html>
